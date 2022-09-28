@@ -1,0 +1,210 @@
+.wrapper {
+    width: 100%;
+    height: 100%;
+    margin-top: 200px;
+}
+
+.container {
+    margin-top: 4rem;
+    margin-left: 5rem;
+}
+
+.wrapper h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    line-height: 45px;
+    text-transform: capitalize;
+    color: #1F56C3;
+}
+
+.rectangleImageOne h4 {
+    width: 200px;
+    font-family: 'Poppins';
+    font-style: normal;
+    margin-top: 3px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    font-feature-settings: 'salt'on, 'liga'off;
+    color: #333333;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.lineOneStyles {
+    margin-top: 50%;
+    margin-left: 5%;
+}
+
+.rectangleImageOne p {
+    width: 200px;
+    font-family: 'Poppins';
+    font-style: normal;
+    margin-top: -10px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(102, 102, 102, 0.92);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.rectangleImageTwo h4 {
+    width: 200px;
+    font-family: 'Poppins';
+    font-style: normal;
+    margin-top: 3px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    font-feature-settings: 'salt'on, 'liga'off;
+    color: #333333;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.rectangleImageTwo p {
+    width: 200px;
+    font-family: 'Poppins';
+    font-style: normal;
+    margin-top: -10px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(102, 102, 102, 0.92);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.rectangleImageThree h4 {
+    width: 200px;
+    font-family: 'Poppins';
+    font-style: normal;
+    margin-top: 3px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    font-feature-settings: 'salt'on, 'liga'off;
+    color: #333333;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.rectangleImageThree p {
+    width: 200px;
+    font-family: 'Poppins';
+    font-style: normal;
+    margin-top: -10px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(102, 102, 102, 0.92);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.rectangleImageFour h4 {
+    width: 200px;
+    font-family: 'Poppins';
+    font-style: normal;
+    margin-top: 3px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    font-feature-settings: 'salt'on, 'liga'off;
+    color: #333333;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.rectangleImageFour p {
+    width: 200px;
+    font-family: 'Poppins';
+    font-style: normal;
+    margin-top: -10px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(102, 102, 102, 0.92);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+@media (max-width: 700px) {
+    .lineOneStyles {
+        display: none;
+    }
+    .rectangleImageOne {
+        margin-left: 25%;
+    }
+    .rectangleImageTwo {
+        margin-left: 25%;
+    }
+    .rectangleImageThree {
+        margin-left: 25%;
+    }
+    .rectangleImageFour {
+        margin-left: 25%;
+    }
+}
+
+@media (max-width: 540px) {
+    .lineOneStyles {
+        display: none;
+    }
+    .doctorStyle {
+        width: 400px;
+    }
+    .rectangleImageOne {
+        margin-left: 60px;
+    }
+    .rectangleImageTwo {
+        margin-left: 60px;
+    }
+    .rectangleImageThree {
+        margin-left: 60px;
+    }
+    .rectangleImageFour {
+        margin-left: 60px;
+    }
+}
+
+@media (max-width: 360px) {
+    .lineOneStyles {
+        display: none;
+    }
+    .doctorStyle {
+        width: 400px;
+    }
+    .rectangleImageOne {
+        margin-left: 0px;
+    }
+    .rectangleImageTwo {
+        margin-left: 0px;
+    }
+    .rectangleImageThree {
+        margin-left: 0px;
+    }
+    .rectangleImageFour {
+        margin-left: 0px;
+    }
+}

@@ -1,0 +1,88 @@
+/* start -- Topheader styles */
+.topHeader {
+  display: flex;
+  justify-content: space-between;
+  /* width: 100%; could cause overflow on the x-axis */
+  max-width: 100%;
+  /* margin-left: 48px; */
+  padding-right: 60px;
+  margin-top: -40px;
+}
+
+.tableWrapper {
+  margin-right: 60px;
+}
+
+@media (max-width: 800px) {
+  .topHeader {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+.presBtn,
+.firstBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 224px;
+  height: 45px;
+  background: #edf2fb;
+  border-radius: 5px;
+  background: #1f56c3 !important;
+}
+
+.firstBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 224px;
+  height: 45px;
+  background: #edf2fb !important;
+  border-radius: 5px;
+  color: #1f56c3 !important;
+  box-shadow: -1px -6px 21px 0px rgba(0, 0, 0, 0.04);
+  -webkit-box-shadow: -1px -6px 21px 0px rgba(0, 0, 0, 0.04);
+  -moz-box-shadow: -1px -6px 21px 0px rgba(0, 0, 0, 0.04);
+}
+
+.topHeadertext1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: #333333;
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 30px;
+  color: #1f56c3;
+}
+
+.topHeadertext2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: #666666;
+  margin-top: 12px;
+}
+
+.moveTopUp {
+  margin-top: 2rem;
+}
+
+/* end -- Topheader styles */
+
+.flexMe {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}

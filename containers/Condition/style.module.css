@@ -1,0 +1,382 @@
+.wrapper {
+    width: 100%;
+    height: 100%;
+    left: 97px;
+    top: 1590px;
+    padding: 20px;
+    background: #EDF2FB;
+    border-radius: 10px;
+}
+
+.text h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    text-transform: capitalize;
+    text-align: center;
+    color: #1F56C3;
+}
+
+.cardBorderOne {
+    width: 250px;
+    height: 250px;
+    left: 49px;
+    top: 167px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+}
+
+.cardBorderOne:hover {
+    background: #1F56C3;
+    border: 1px solid #E5E5E5;
+    box-shadow: -30px 30px 30px rgba(68, 68, 68, 0.15);
+    border-radius: 5px;
+}
+
+.cardBorderTwo {
+    width: 250px;
+    height: 250px;
+    left: 49px;
+    top: 167px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+}
+
+.cardBorderTwo:hover {
+    background: #1F56C3;
+    border: 1px solid #E5E5E5;
+    box-shadow: -30px 30px 30px rgba(68, 68, 68, 0.15);
+    border-radius: 5px;
+}
+
+.cardBorderThree {
+    width: 250px;
+    height: 250px;
+    left: 49px;
+    top: 167px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+}
+
+.cardBorderThree:hover {
+    background: #1F56C3;
+    border: 1px solid #E5E5E5;
+    box-shadow: -30px 30px 30px rgba(68, 68, 68, 0.15);
+    border-radius: 5px;
+}
+
+.cardBorderFour {
+    width: 250px;
+    height: 250px;
+    left: 49px;
+    top: 167px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+}
+
+.cardBorderFour:hover {
+    background: #1F56C3;
+    border: 1px solid #E5E5E5;
+    box-shadow: -30px 30px 30px rgba(68, 68, 68, 0.15);
+    border-radius: 5px;
+}
+
+.cardBorderFive {
+    width: 250px;
+    height: 250px;
+    left: 49px;
+    top: 167px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+}
+
+.cardBorderFive:hover {
+    background: #1F56C3;
+    border: 1px solid #E5E5E5;
+    box-shadow: -30px 30px 30px rgba(68, 68, 68, 0.15);
+    border-radius: 5px;
+}
+
+.cardBorderSix {
+    width: 250px;
+    height: 250px;
+    left: 49px;
+    top: 167px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+}
+
+.cardBorderSix:hover {
+    background: #1F56C3;
+    border: 1px solid #E5E5E5;
+    box-shadow: -30px 30px 30px rgba(68, 68, 68, 0.15);
+    border-radius: 5px;
+}
+
+.cardBorderSeven {
+    width: 250px;
+    height: 250px;
+    left: 49px;
+    top: 167px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+}
+
+.cardBorderSeven:hover {
+    background: #1F56C3;
+    border: 1px solid #E5E5E5;
+    box-shadow: -30px 30px 30px rgba(68, 68, 68, 0.15);
+    border-radius: 5px;
+}
+
+.cardBorderEight {
+    width: 250px;
+    height: 250px;
+    left: 49px;
+    top: 167px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+}
+
+.cardBorderEight:hover {
+    background: #1F56C3;
+    border: 1px solid #E5E5E5;
+    box-shadow: -30px 30px 30px rgba(68, 68, 68, 0.15);
+    border-radius: 5px;
+}
+
+.containerImage {
+    display: flex;
+    justify-content: center;
+    margin-top: 40%;
+}
+
+.cardBorderOne:hover .containerImage .NauseaImg {
+    color: #FFFFFF;
+}
+
+.cardBorderOne:hover .img {
+    fill: #FFFFFF;
+}
+
+.NauseaImg {
+    width: 118px;
+    height: 47px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    text-transform: capitalize;
+    color: #666666;
+}
+
+.AllergeIamge {
+    width: 118px;
+    height: 47px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    text-transform: capitalize;
+    color: #666666;
+}
+
+.cardBorderTwo:hover .containerImage .AllergeIamge {
+    color: #FFFFFF;
+}
+
+.cardBorderThree:hover .containerImage .infected {
+    color: #FFFFFF;
+}
+
+.infected {
+    width: 118px;
+    height: 47px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    text-transform: capitalize;
+    color: #666666;
+}
+
+.cardBorderFour:hover .containerImage .AllergeIamge {
+    color: #FFFFFF;
+}
+
+.button {
+    width: 300px;
+    margin-top: 10px;
+    padding: 20px;
+    margin-left: 35%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1000px) {
+    .cardBorderOne {
+        width: 100%;
+    }
+    .cardBorderTwo {
+        width: 100%;
+    }
+    .cardBorderThree {
+        width: 100%;
+    }
+    .cardBorderFour {
+        width: 100%;
+    }
+    .cardBorderFive {
+        width: 100%;
+    }
+    .cardBorderSix {
+        width: 100%;
+    }
+    .cardBorderSeven {
+        width: 100%;
+    }
+    .cardBorderEight {
+        width: 100%;
+    }
+    .containerImage {
+        margin-top: 90px;
+    }
+    .button {
+        margin-left: 30%;
+    }
+}
+
+@media (max-width: 800px) {
+    .cardBorderOne {
+        width: 100%;
+    }
+    .cardBorderTwo {
+        width: 100%;
+    }
+    .cardBorderThree {
+        width: 100%;
+    }
+    .cardBorderFour {
+        width: 100%;
+    }
+    .cardBorderFive {
+        width: 100%;
+    }
+    .cardBorderSix {
+        width: 100%;
+    }
+    .cardBorderSeven {
+        width: 100%;
+    }
+    .cardBorderEight {
+        width: 100%;
+    }
+    .containerImage {
+        margin-top: 90px;
+    }
+    .button {
+        margin-left: 30%;
+    }
+}
+
+@media (max-width: 700px) {
+    .cardBorderOne {
+        width: 100%;
+    }
+    .cardBorderTwo {
+        width: 100%;
+    }
+    .cardBorderThree {
+        width: 100%;
+    }
+    .cardBorderFour {
+        width: 100%;
+    }
+    .cardBorderFive {
+        width: 100%;
+    }
+    .cardBorderSix {
+        width: 100%;
+    }
+    .cardBorderSeven {
+        width: 100%;
+    }
+    .cardBorderEight {
+        width: 100%;
+    }
+    .containerImage {
+        margin-top: 90px;
+    }
+    .button {
+        margin-left: 60px;
+    }
+}
+
+@media (max-width:540px) {
+    .cardBorderOne {
+        width: 100%;
+    }
+    .cardBorderTwo {
+        width: 100%;
+    }
+    .cardBorderThree {
+        width: 100%;
+    }
+    .cardBorderFour {
+        width: 100%;
+    }
+    .cardBorderFive {
+        width: 100%;
+    }
+    .cardBorderSix {
+        width: 100%;
+    }
+    .cardBorderSeven {
+        width: 100%;
+    }
+    .cardBorderEight {
+        width: 100%;
+    }
+    .containerImage {
+        margin-top: 90px;
+    }
+    .button {
+        margin-left: 60px;
+    }
+}
+
+@media (max-width: 450px) {
+    .button {
+        margin-left: 0px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 360px) {
+    .button {
+        width: 100%;
+    }
+}

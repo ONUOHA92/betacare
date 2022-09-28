@@ -1,0 +1,102 @@
+.form > button,
+.divider {
+  margin-top: 3rem;
+}
+
+.input {
+  margin-bottom: 1.5rem;
+}
+
+.input input {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+}
+
+.radioGroup label {
+  flex: 1;
+  border: 1px solid gray;
+  border-radius: 8px;
+  color: gray;
+}
+
+.radioGroup label.activeRadio {
+  border: 2px solid #1f56c3;
+  box-sizing: border-box;
+}
+
+.heading {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  font-size: 18px;
+  color: #010713;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.heading span {
+  display: block;
+  color: #1f56c3;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.link {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  color: #999999;
+}
+
+.terms a:hover,
+.link a:hover {
+  cursor: pointer;
+  color: #55adff;
+}
+
+.terms {
+  color: #666666;
+  font-size: 12px;
+  line-height: 11px;
+  font-family: Roboto, 'sans serif';
+  font-weight: 400;
+}
+
+.terms a,
+.link a {
+  color: #1f56c3;
+}
+
+.link a {
+  font-weight: 500;
+}
+
+.divider {
+  position: relative;
+  padding: 0.5rem 0;
+}
+
+.line {
+  width: 100%;
+  height: 0;
+  border: 1px solid #66666640;
+}
+
+.divider p {
+  margin: 0;
+  padding: 0.5rem;
+  color: #333333;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: Roboto, 'sans serif';
+  font-weight: 400;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

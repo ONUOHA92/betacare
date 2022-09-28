@@ -1,0 +1,13 @@
+.items {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1.6rem;
+    padding: 3.81rem 4rem;
+}
+
+@media screen and (max-width: 600px) {
+    .items {
+        padding: 1.5rem;
+    }
+}

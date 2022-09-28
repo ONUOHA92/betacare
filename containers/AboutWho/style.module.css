@@ -1,0 +1,89 @@
+.wrapper {
+    margin-top: 100px;
+}
+
+.who {
+    width: 544px;
+    height: 511px;
+    left: 0px;
+    top: 0px;
+}
+
+.vertical {
+    border-left: 5px solid #1F56C3;
+    height: 370px;
+    margin-top: 80px;
+}
+
+.title h3 {
+    width: 524px;
+    height: 56px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    color: #1F56C3;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.title p {
+    width: 524px;
+    height: 472px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: justify;
+    color: #0D1F2D;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.betaLogo {
+    margin-top: 150px;
+}
+
+@media (max-width: 700px) {
+    .title p {
+        font-size: 17px;
+        width: 470px;
+        margin-left: -5px;
+    }
+}
+
+@media (max-width: 540px) {
+    .title p {
+        font-size: 15px;
+        width: 400px;
+        margin-left: -10px;
+    }
+}
+
+@media (max-width: 360px) {
+    .title h3 {
+        font-size: 25px;
+    }
+    .title p {
+        font-size: 14px;
+        margin-left: -50px;
+        padding-right: 60px;
+        width: 400px;
+    }
+    .betaLogo {
+        margin-top: 190px;
+        margin-left: -8%;
+    }
+    .vertical {
+        display: none;
+    }
+}

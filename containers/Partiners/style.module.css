@@ -1,0 +1,131 @@
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  left: 218px;
+  top: 6795px;
+}
+
+.partinerOne {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.partinerOne p {
+  width: 431px;
+  height: 90px;
+  text-align: center;
+  padding-top: 50px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  /* secondary/dark */
+  color: #333333;
+}
+
+.partImage {
+  padding-top: 20%;
+}
+
+.container {
+  /* width: 480px; */
+  height: 470px;
+  margin-top: 70px;
+  padding: 0px 30px;
+  background-color: #ebeeff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.partinerTwo {
+  margin-top: 20px;
+  width: 429px;
+  height: 443px;
+  background: #ffffff;
+  box-shadow: 4px 4px 12px rgba(31, 86, 195, 0.122);
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.partinerTwo .partnerHeader {
+  height: 108px;
+  text-align: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+}
+
+.partinerTwo p {
+  font-family: 'Poppins';
+
+  height: 48px;
+  left: 12px;
+  top: 190px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #979797;
+}
+
+.partnerButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  border: none;
+  padding: 12px;
+  width: 192px;
+  height: 52px;
+
+  margin: 70px auto 0;
+  background: #1f56c3;
+  border-radius: 5px;
+}
+
+@media (max-width: 450px) {
+  .container {
+    width: 100%;
+  }
+  .partinerTwo {
+    width: 100%;
+  }
+  .partinerTwo .partnerHeader {
+    font-size: 18px;
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .partinerTwo .partnerHeader {
+    font-size: 16px;
+  }
+  .container {
+    padding: 0 15px;
+  }
+}
+
+@media (max-width: 360px) {
+  .partinerTwo .partnerHeader {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .partnerButton {
+    width: 70%;
+  }
+  .partinerTwo {
+    padding: 0 0.3rem;
+  }
+}

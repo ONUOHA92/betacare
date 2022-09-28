@@ -1,0 +1,66 @@
+.formContainer {
+  margin-left: 55px;
+  margin-right: 55px;
+  max-width: 100%;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+}
+
+.formContainerForm {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+
+.header {
+  display: flex;
+  width: 111px;
+  gap: 20px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  align-items: center;
+}
+
+.header:hover {
+  cursor: pointer;
+}
+
+.topText {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 38px;
+  text-align: center;
+  color: #1f56c3;
+}
+
+.relationshipInner {
+  margin-bottom: 0.7rem;
+}
+
+.gapMe {
+  margin-top: 1rem;
+}
+
+.stswrapper {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.gapSmall {
+  margin-bottom: 0.8rem;
+}
+
+.infoText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

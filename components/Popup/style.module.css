@@ -1,0 +1,19 @@
+.customizedbutton {
+  color: gray;
+}
+
+.wrapper {
+  position: absolute !important;
+  top: 2%;
+  left: 90%;
+  padding: 0 !important;
+  border-radius: 50%;
+}
+
+.maincontainer {
+  display: block;
+}
+
+.maincontainer > div {
+  overflow: hidden !important;
+}

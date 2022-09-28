@@ -1,0 +1,210 @@
+.smallCard {
+  display: flex;
+  gap: 1rem;
+  margin-left: 2rem;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+
+.flexify {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* width: 100%; */
+  margin-top: 3rem;
+  gap: 2rem;
+  /* margin-left: 2rem; */
+}
+
+.welcome {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #0a2a6a;
+  margin-top: -3rem;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 2rem;
+}
+
+.presBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px !important;
+  background: rgba(31, 86, 195, 0.08) !important;
+  border-radius: 5px !important;
+  width: 500px !important;
+  max-width: 100% !important;
+  height: 52px !important;
+  gap: 18px;
+  color: #1f56c3 !important;
+  transition: 500ms ease-out opacity;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 40px !important;
+}
+
+.presBtn:hover {
+  opacity: 0.8;
+  transition: 500ms ease-out opacity;
+}
+
+.adjustMarginBtn {
+  margin-top: 10px !important;
+}
+
+.sideLine {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -1rem;
+}
+
+.flexRow,
+.flexRow2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexRow2 {
+  margin-top: -2rem;
+}
+
+.appCard {
+  margin-left: 12px;
+}
+
+.appCardLab {
+  margin-left: 0;
+}
+
+.labBtn {
+  width: 123px !important;
+  height: 42px !important;
+  flex-wrap: nowrap;
+  font-family: Poppins !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 21px !important;
+  color: #1f56c3 !important;
+}
+
+.positionLabby {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+
+.labby {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+}
+
+.labbyMini {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: #666666;
+}
+
+.makeContainer {
+  display: flex;
+}
+
+.flexify > div > div {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.dbtn {
+  width: 224px;
+  height: 45px;
+  background: #edf2fb;
+  border-radius: 5px;
+}
+
+.dbtn {
+  border-radius: 5px;
+  background: #edf2fb !important;
+  color: #1f56c3 !important;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  opacity: 1;
+  transition: 500ms ease-out opacity;
+  text-transform: lowercase;
+  box-shadow: -2px -2px 14px 4px rgba(0, 0, 0, 0.04);
+  -webkit-box-shadow: -2px -2px 14px 4px rgba(0, 0, 0, 0.04);
+  -moz-box-shadow: -2px -2px 14px 4px rgba(0, 0, 0, 0.04);
+}
+
+@media (max-width: 1310px) {
+  .smallCard {
+    margin-left: 0 !important;
+  }
+}
+@media (max-width: 1417px) {
+  .flexify {
+    width: 600px;
+  }
+}
+@media (max-width: 1310px) {
+  .flexify {
+    margin-left: 0;
+    width: 600px;
+    max-width: 100%;
+  }
+
+  .welcome {
+    margin-left: 0rem;
+  }
+}
+
+.addFlex {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .addFlex {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.card {
+  margin-top: 40px;
+}
+
+
+
+.container {
+  padding: 55px 66px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container > svg:hover {
+  cursor: pointer;
+}

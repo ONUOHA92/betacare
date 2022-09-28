@@ -1,0 +1,47 @@
+.incomingCall {
+  background: transparent;
+}
+
+.incomingCall__header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.incomingCall__header__title {
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: 'Poppins';
+  font-weight: bold;
+}
+
+.incomingCall__body {
+  width: 80%;
+  margin: 2rem auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.incomingCall__body__text {
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: 'Poppins';
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.incomingCall__footer {
+  width: 45%;
+  margin: 2rem auto 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .incomingCall__footer {
+    width: 95%;
+  }
+}

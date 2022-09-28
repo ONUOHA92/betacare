@@ -1,0 +1,89 @@
+/* start */
+
+.mainContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 295px;
+  height: 143px;
+  background: #f9f9fb;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+.flem1 {
+  display: flex;
+  flex-direction: row;
+  padding: 23px 11px;
+  gap: 16px;
+}
+
+.flem1a {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.flem2sob {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+
+.flem4a,
+.flem4b {
+  width: 50%;
+  height: 35px;
+  background: #edf2fb;
+}
+
+.flem4a:hover,
+.flem4b:hover {
+  background-color: #fff;
+}
+
+.flem4a:hover {
+  background: #edf2fb;
+}
+
+.flem4 {
+  outline: 1px solid #d9d9d9;
+}
+
+.flem4b {
+  background: #ffffff;
+  color: #e82121;
+}
+
+.flem3 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #8c8c8c;
+  width: 90px;
+}
+
+.flem2 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.flem2b {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #8c8c8c;
+}
+
+.flem2a {
+  flex-wrap: wrap;
+}
+
+/* end */

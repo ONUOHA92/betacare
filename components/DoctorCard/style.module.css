@@ -1,0 +1,107 @@
+.wrapper {
+  max-width: 234px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+  /* background: #edf2fb; */
+  border-radius: 10px;
+  height: 260px;
+}
+
+.wrapper:hover {
+  background: #edf2fb;
+  transition: background 250ms ease-out;
+}
+
+.topImg {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: white;
+  position: relative;
+}
+
+.topImg > img {
+  border-radius: 50%;
+}
+
+.circlebadge {
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  right: 0.2rem;
+  bottom: 0.3rem;
+  width: 20px;
+  height: 20px;
+  background: #00f5d4;
+}
+
+.details {
+  text-align: center;
+}
+.details h3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 13px 0 0 0;
+}
+
+.details p {
+  color: #999999;
+}
+
+.ratings {
+  margin-block: 1.8rem 2rem;
+}
+
+.ratings,
+.ratingContainer {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.details p,
+.ratings p {
+  font-weight: 300;
+  margin: 0;
+  font-size: 11px;
+  line-height: 16px;
+}
+
+.view {
+  width: 100%;
+  height: 52px;
+  /* background: #edf2fb; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 0px 16px 16px;
+  margin-top: 17px;
+}
+
+.available {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #00f5d4;
+  margin-top: 8px;
+}
+
+.presBtn {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+}

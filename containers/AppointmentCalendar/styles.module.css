@@ -1,0 +1,27 @@
+.wrapper {
+  padding: 2rem;
+}
+
+.form_group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form_group select {
+  height: 52px;
+  background-color: #f9f9fb;
+  border-radius: 15px;
+  padding-inline: 10px;
+  background-position: top 5px right 4px;
+  margin-bottom: 1rem;
+}
+
+.addMargin {
+  margin-top: 10pxpx;
+  margin-bottom: 30px;
+}
+
+.calenderRaw {
+  background: red;
+}

@@ -1,0 +1,86 @@
+.addBoxShadow {
+  display: block !important;
+  box-shadow: 0px 12px 26px rgba(16, 30, 115, 0.06);
+  border-radius: 8px;
+  color: #fff;
+  font-family: Roboto;
+  margin-bottom: 18px;
+  max-width: 100%;
+  padding-left: 67px;
+  padding-top: 27px;
+  margin-top: 40px;
+  padding-bottom: -46px;
+}
+
+.addBoxShadow > div {
+  max-width: 100%;
+}
+
+.appointmentText {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px !important;
+  color: #333333;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.appointmentText > span > img {
+  min-height: initial !important;
+  width: 24px !important;
+  height: 22px !important;
+}
+
+.bothCards {
+  display: flex;
+  gap: 60px;
+}
+
+.bothCards > .calender > div > div:nth-child(1) > div > div > div > div {
+  width: 400px;
+  height: 332px;
+}
+
+.calender > div > div:nth-child(1) > div > div > div {
+  width: 400px;
+}
+
+.bothCards > .calender > div > div:nth-child(1) > div > div > div > div > div {
+  background: #fcfcfc;
+  width: 350px;
+  overflow-y: hidden;
+}
+
+.calender {
+  width: 468px;
+  height: 600px;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 16px;
+  max-width: 100%;
+}
+
+.bothCards > .calender > div > div:nth-child(2) > select {
+  outline: none;
+}
+
+@media (max-width: 700px) {
+  .addBoxShadow {
+    padding-left: 10px;
+  }
+  .bothCards {
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width: 1120px) {
+  .bothCards {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+}

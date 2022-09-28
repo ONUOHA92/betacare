@@ -1,0 +1,190 @@
+.wrapper {
+    margin-top: 102px;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.bannerContent {
+    margin-top: 102px;
+}
+
+.titleContainer {
+    margin-left: -30%;
+}
+
+.DoctorBanner {
+    width: 928px;
+    height: 157px;
+    left: 294px;
+    top: 180px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 147.5%;
+    /* or 74px */
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    /* primary/blue */
+    color: #1F56C3;
+}
+
+.doctorContainer {
+    padding-left: 10px;
+    margin-top: 50px;
+}
+
+.nurseContainer {
+    display: flex;
+    justify-content: center;
+    margin-left: 60%;
+}
+
+.DoctorParagraph {
+    width: 694px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 35%;
+    color: #696969;
+}
+
+.squareThirdContainer {
+    padding-left: 130px;
+}
+
+.squareOneContainer {
+    margin-top: 50px;
+}
+
+.secondContentImage {
+    margin-top: -50px;
+    padding-left: 30%;
+}
+
+@media (max-width: 700px) {
+    .DoctorBanner {
+        font-size: 25px;
+        margin-left: 40%;
+        width: 450px;
+    }
+    .DoctorParagraph {
+        width: 370px;
+        margin-left: 25%;
+        margin-top: -20px;
+    }
+    .bannerContent {
+        margin-top: -40px;
+    }
+}
+
+@media (max-width: 1020px) {
+    .DoctorBanner {
+        font-size: 25px;
+        margin-left: 35%;
+        width: 500px;
+    }
+    .DoctorParagraph {
+        width: 450px;
+        margin-left: 40%;
+        margin-top: -70px;
+    }
+    .bannerContent {
+        margin-top: -40px;
+    }
+}
+
+@media (max-width: 900px) {
+    .DoctorBanner {
+        font-size: 25px;
+        margin-left: 35%;
+        width: 500px;
+    }
+    .DoctorParagraph {
+        width: 450px;
+        margin-left: 40%;
+        margin-top: -70px;
+    }
+    .bannerContent {
+        margin-top: -40px;
+    }
+}
+
+@media (max-width: 700px) {
+    .DoctorBanner {
+        font-size: 25px;
+        margin-left: 30%;
+        width: 500px;
+    }
+    .DoctorParagraph {
+        width: 450px;
+        margin-left: 30%;
+        margin-top: -70px;
+    }
+    .bannerContent {
+        margin-top: -40px;
+    }
+}
+
+@media (max-width: 600px) {
+    .DoctorBanner {
+        font-size: 25px;
+        margin-left: 35%;
+        width: 400px;
+    }
+    .DoctorParagraph {
+        width: 370px;
+        margin-left: 35%;
+        margin-top: -20px;
+    }
+    .bannerContent {
+        margin-top: -40px;
+    }
+}
+
+@media (max-width: 540px) {
+    .DoctorBanner {
+        font-size: 25px;
+        margin-left: 28%;
+        width: 400px;
+    }
+    .DoctorParagraph {
+        width: 370px;
+        margin-left: 30%;
+        margin-top: -20px;
+    }
+    .bannerContent {
+        margin-top: -40px;
+    }
+}
+
+@media (max-width: 450px) {
+    .DoctorBanner {
+        font-size: 20px;
+        margin-left: 25%;
+        width: 300px;
+    }
+    .DoctorParagraph {
+        width: 350px;
+        margin-left: 25%;
+        margin-top: -45px;
+    }
+}
+
+@media (max-width: 360px) {
+    .DoctorBanner {
+        font-size: 20px;
+        margin-left: 25%;
+        width: 300px;
+    }
+    .DoctorParagraph {
+        width: 350px;
+        margin-left: 20%;
+        margin-top: -45px;
+    }
+}

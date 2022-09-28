@@ -1,0 +1,80 @@
+.form button, .divider {
+  margin-top: 3rem;
+}
+
+.input {
+  margin-bottom: 1.5rem;
+  color: #333333;
+}
+
+.heading {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  font-size: 18px;
+  color: #010713;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.heading span {
+  display: block;
+  color: #1F56C3;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.link a {
+  color: #1F56C3
+}
+
+.group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -1rem;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.link {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: #999999;
+}
+
+.group a:hover,
+.link a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
+.divider {
+  position: relative;
+  padding: .5rem 0;
+}
+
+.line {
+  width: 100%;
+  height: 0;
+  border: 1px solid #666666;
+}
+
+.divider p {
+  margin: 0;
+  padding: .5rem;
+  color: #333333;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: Roboto, 'sans serif';
+  font-weight: 400;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

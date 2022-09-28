@@ -1,0 +1,12 @@
+.label {
+  margin-bottom: 0.5em;
+  display: block;
+  font-weight: 400;
+}
+
+.small {
+  display: block;
+  margin-top: 2px;
+  color: rgba(255, 89, 94, 1);
+  font-size: 14px;
+}

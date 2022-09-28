@@ -1,0 +1,236 @@
+.wrapper {
+    margin-top: 150px;
+    align-items: flex-start;
+    padding: 0px;
+    width: 1184px;
+    height: 193px;
+    left: 128px;
+    top: 1247px;
+}
+
+.mission {
+    margin-left: 80px;
+    padding: 10px;
+    width: 500px;
+    height: 193px;
+    background: #E9F0FF;
+    border-radius: 16px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.mission h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    padding-left: 20px;
+    font-size: 32px;
+    line-height: 40px;
+    /* identical to box height, or 125% */
+    display: flex;
+    align-items: center;
+    color: #2D4AC8;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.mission p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    display: flex;
+    align-items: center;
+    color: #4B4B4B;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.vission {
+    padding: 10px;
+    width: 560px;
+    height: 193px;
+    background: #E9F0FF;
+    border-radius: 16px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+}
+
+.vission h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    padding-left: 20px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    /* identical to box height, or 125% */
+    display: flex;
+    align-items: center;
+    /* Brand/Main */
+    color: #2D4AC8;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.vission p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    color: #4B4B4B;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+@media (max-width: 700px) {
+    .mission {
+        margin-left: 5px;
+        width: 540px;
+    }
+    .vission {
+        width: 540px;
+    }
+    .vission p {
+        font-size: 16px;
+        width: 400px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 540px) {
+    .mission {
+        margin-left: 5px;
+        width: 450px;
+    }
+    .vission {
+        width: 450px;
+    }
+    .vission p {
+        font-size: 16px;
+        width: 400px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 360px) {
+    .wrapper {
+        margin-top: 40px;
+        align-items: flex-start;
+        padding: 0px;
+        width: 1184px;
+        height: 193px;
+        left: 128px;
+        top: 1247px;
+    }
+    .mission {
+        margin-left: 20px;
+        padding: 10px;
+        width: 339px;
+        height: 193px;
+        margin-left: 0%;
+        background: #E9F0FF;
+        border-radius: 16px;
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+    }
+    .mission h3 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        margin-left: 50px;
+        padding-left: -20%;
+        line-height: 40px;
+        /* Brand/Main */
+        color: #2D4AC8;
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .mission p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        width: 300px;
+        line-height: 24px;
+        text-align: center;
+        color: #4B4B4B;
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .vission {
+        padding: 10px;
+        width: 339px;
+        height: 193px;
+        background: #E9F0FF;
+        border-radius: 16px;
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        flex-grow: 1;
+    }
+    .vission h3 {
+        font-family: 'Poppins';
+        font-style: normal;
+        padding-top: 10px;
+        margin-top: -3%;
+        margin-left: 60px;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        /* Brand/Main */
+        color: #2D4AC8;
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .vission p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        width: 250px;
+        line-height: 24px;
+        margin-top: -5px;
+        width: 350px;
+        margin-left: -20px;
+        text-align: center;
+        color: #4B4B4B;
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+}

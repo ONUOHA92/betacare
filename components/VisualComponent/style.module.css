@@ -1,0 +1,158 @@
+.container,
+.smallDImg,
+.smallF {
+  max-width: 100%
+}
+
+.container {
+  background:  #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 38px;
+  padding-right: 38px;
+  margin-top: -3rem;
+  margin-bottom: 5rem;
+}
+
+.smallD {
+    position: relative;
+    padding-top: 8px;
+}
+
+.smallF {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.moveImageTop {
+  top: .5rem;
+  right: 0;
+}
+
+.moveImageTop .smallDFImg {
+  width: 150px!important;
+  height: 107px!important;
+}
+
+
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+.adjustPadd {
+  margin-top: 26.38px;
+}
+
+.svg {
+  width: 48px;
+  height: 48px;
+  background: #F9F9FB;
+  backdrop-filter: blur(40px);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.svgAdjust {
+  width: 36.18px;
+  height: 36.18px;
+  left: 615.76px;
+  top: 567.73px;
+  background: #F9F9FB;
+  backdrop-filter: blur(40px);
+  border-radius: 8px;
+}
+
+.svg:hover {
+  cursor: pointer;
+}
+
+.red {
+  background: #E82121;
+}
+
+.vidCallContainer {
+  margin-left: 16px;
+  width: 560.01px!important;
+  height: 425px;
+}
+
+.vidCallContainer {
+  margin-top: 0;
+}
+
+.adjustContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  position: relative;
+}
+
+.adjustContainer .icons {
+  position: absolute;
+  bottom: 0;
+}
+
+
+
+.roundAvatar {
+  width: 163px;
+  height: 163px;
+  object-fit: cover;
+  border-radius: 50%;
+  max-width: 100%;
+}
+
+
+
+
+@media (min-width: 768px) {
+  .container {
+     margin-left: 100px;
+  }
+  .vidCallContainer {
+    margin-left: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .makeFResponsive {
+    width: 100px;
+    max-width: 100%;
+    height: auto;
+  }
+  .vidCallContainer {
+    margin-left: 0;
+    height: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .svg {
+    width: 38px;
+    height: 38px;
+  }
+
+  .makeFResponsive {
+    width: 100px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .icons {
+    margin-top: 12px;
+    margin-bottom: 14px;
+  }
+
+}

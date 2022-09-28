@@ -1,0 +1,72 @@
+/* start -- Pagination styles */
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+  margin-bottom: 66px;
+}
+
+@media (max-width: 768px) {
+  .pagination {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+.paginationRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 216px;
+  height: 35px;
+  background: #a0a2af;
+  border-radius: 5px;
+  justify-content: space-between;
+  padding-left: 16.75px;
+  padding-right: 16.75px;
+}
+
+.siblings {
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+  align-items: center;
+}
+
+.siblings>span:hover {
+  cursor: pointer;
+}
+
+.active {
+  width: 29px;
+  height: 23px;
+  background: #ffffff;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .pagination {
+    margin-right: 10px;
+  }
+}
+
+.parginationLeft {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #666666;
+}
+
+.dashes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+/* end -- Pagination styles */

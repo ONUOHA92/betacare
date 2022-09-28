@@ -1,0 +1,118 @@
+.presBtn1,
+.presBtn2 {
+  background: #1f56c3;
+  border-radius: 5px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  width: 150px;
+  height: 45px;
+  color: #ffffff;
+  opacity: 0.9;
+  transition: opacity 250ms ease-out;
+}
+
+.presBtn1:hover,
+.singleBtn1:hover {
+  background: #1f56c3;
+  opacity: 1;
+  transition: opacity 250ms ease-out;
+}
+
+.presBtn2:hover {
+  background: #f1f1f1;
+  opacity: 1;
+  transition: opacity 250ms ease-out;
+}
+
+.presBtn2 {
+  background: #f1f1f1;
+  border: 1px solid #999999;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: #999999;
+}
+
+.rightCards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rightCards1 {
+  width: 406px;
+  height: 268px;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding-left: 33px;
+  margin-bottom: 18px;
+}
+
+.rightCardsHead {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+}
+
+.rightCardsContent {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #666666;
+  opacity: 0.66;
+  margin-top: 14px;
+  margin-bottom: 8px;
+  padding-right: 33px;
+}
+
+.rightCardsPhone {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+  margin-bottom: 31px;
+}
+
+.singleBtn {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: -12px;
+}
+
+.singleBtn1 {
+  width: 300px;
+  background: #1f56c3;
+  border-radius: 5px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  height: 45px;
+  opacity: 0.9;
+  transition: opacity 250ms ease-out;
+}
+
+.rightCardsSvg {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  margin-right: 7px;
+}
+
+.presBtnns {
+  display: flex;
+  justify-content: flex-start;
+  gap: 23px;
+}

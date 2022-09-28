@@ -1,0 +1,463 @@
+.wrapper {
+    width: 100%;
+    height: 100%;
+    left: -1px;
+    top: 810px;
+    background: #FAFBFE;
+    padding-bottom: 10%;
+}
+
+.titleContainer {
+    margin-top: 50px;
+}
+
+.title {
+    width: 356px;
+    height: 47px;
+    left: 103px;
+    margin-top: 140px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #1F56C3;
+}
+
+.text {
+    width: 441px;
+    height: 70px;
+    left: 103px;
+    margin-top: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 35px;
+    color: #696969;
+}
+
+.buttonContainer {
+    width: 225px;
+    height: 81px;
+    left: 103px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+
+/* card contianer */
+
+.cardContainer {
+    margin-top: 120px;
+}
+
+.earnMore {
+    box-sizing: border-box;
+    width: 290px;
+    height: 271px;
+    left: 648px;
+    top: 133px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+}
+
+.earnMore:hover {
+    background-color: #1F56C3;
+    cursor: pointer;
+}
+
+.walletContainer {
+    margin-top: 20px;
+    margin-left: 32px;
+}
+
+.cardEarntext {
+    margin-top: 10px;
+}
+
+.earntitle {
+    left: 11.03%;
+    right: 60.34%;
+    top: 46.49%;
+    bottom: 44.65%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1F56C3;
+}
+
+.earnIcon {
+    margin-left: 70%;
+    margin-top: 10px;
+}
+
+.earnMore:hover .earntitle {
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.earnParagrah {
+    left: 11.03%;
+    margin-top: 5px;
+    right: 14.48%;
+    top: 58.3%;
+    bottom: 7.38%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #666666;
+}
+
+.earnMore:hover .earnParagrah {
+    color: #FFFFFF;
+}
+
+
+/* convenience */
+
+.convenience {
+    box-sizing: border-box;
+    width: 290px;
+    height: 271px;
+    left: 648px;
+    margin-top: -50px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+}
+
+.convenience:hover {
+    background-color: #1F56C3;
+    cursor: pointer;
+}
+
+.convenienceContainer {
+    margin-top: 20px;
+    margin-left: 32px;
+}
+
+.conventitle {
+    left: 11.03%;
+    right: 60.34%;
+    top: 46.49%;
+    bottom: 44.65%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1F56C3;
+}
+
+.convenience:hover .conventitle {
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.convenParagrah {
+    left: 11.03%;
+    margin-top: 5px;
+    right: 14.48%;
+    top: 58.3%;
+    bottom: 7.38%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #666666;
+}
+
+.convenience:hover .convenParagrah {
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+/* seconline */
+
+.secondline {
+    margin-top: 70px;
+    position: relative;
+}
+
+
+/* flexible */
+
+.flexible {
+    box-sizing: border-box;
+    width: 290px;
+    margin-top: 70%;
+    height: 271px;
+    left: 648px;
+    margin-top: -50px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+}
+
+.flexible:hover {
+    background-color: #1F56C3;
+    cursor: pointer;
+}
+
+.flexibleContianer {
+    margin-top: 20px;
+    margin-left: 32px;
+}
+
+.flexibletitle {
+    left: 11.03%;
+    right: 60.34%;
+    top: 46.49%;
+    bottom: 44.65%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1F56C3;
+}
+
+.flexible:hover .flexibletitle {
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.flexibleParagrah {
+    left: 11.03%;
+    margin-top: 5px;
+    right: 14.48%;
+    top: 58.3%;
+    bottom: 7.38%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #666666;
+}
+
+.flexible:hover .flexibleParagrah {
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+/* secure */
+
+.secure {
+    box-sizing: border-box;
+    width: 290px;
+    height: 271px;
+    top: -4px;
+    position: absolute;
+    margin-top: -50px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+}
+
+.secure:hover {
+    background-color: #1F56C3;
+    cursor: pointer;
+}
+
+.secureContianer {
+    margin-top: 20px;
+    margin-left: 32px
+}
+
+.securetitle {
+    left: 11.03%;
+    right: 60.34%;
+    top: 46.49%;
+    bottom: 44.65%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1F56C3;
+}
+
+.secure:hover .securetitle {
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.secureParagrah {
+    left: 11.03%;
+    margin-top: 5px;
+    right: 14.48%;
+    top: 58.3%;
+    bottom: 7.38%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #666666;
+}
+
+.secure:hover .secureParagrah {
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+@media (max-width: 900px) {
+    .earnMore {
+        width: 100%;
+        margin-top: -15%;
+    }
+    .convenience {
+        width: 100%;
+        margin-top: -7px;
+    }
+    .flexible {
+        width: 100%;
+        margin-top: -7%;
+    }
+    .secure {
+        width: 100%;
+        margin-top: 35%;
+    }
+}
+
+@media (max-width: 700px) {
+    .wrapper {
+        width: 100%;
+        height: 100%;
+        left: -1px;
+        top: 810px;
+        background: #FAFBFE;
+        padding-bottom: 300px;
+    }
+    .earnMore {
+        width: 100%;
+        margin-top: -50px;
+    }
+    .convenience {
+        width: 100%;
+        margin-top: -15px;
+    }
+    .secondline {
+        margin-top: 100px;
+    }
+    .flexible {
+        width: 100%;
+        margin-top: -60px;
+    }
+    .secure {
+        width: 100%;
+        margin-top: 300px;
+    }
+}
+
+@media (max-width: 540px) {
+    .wrapper {
+        width: 100%;
+        height: 100%;
+        left: -1px;
+        top: 810px;
+        background: #FAFBFE;
+        padding-bottom: 300px;
+    }
+    .titleContainer {
+        margin-left: 20%;
+    }
+    .earnMore {
+        box-sizing: border-box;
+        width: 100%;
+        height: 271px;
+        left: 648px;
+        margin-bottom: 20px;
+        background: #FFFFFF;
+        border: 1px solid #E5E5E5;
+        border-radius: 5px;
+    }
+    .secondline {
+        margin-top: 70px;
+    }
+    .secure {
+        box-sizing: border-box;
+        width: 100%;
+        height: 271px;
+        margin-top: 300px;
+        background: #FFFFFF;
+        border: 1px solid #E5E5E5;
+        border-radius: 5px;
+    }
+}
+
+@media (max-width: 540px) {
+    .text {
+        width: 270px;
+        margin-left: 30px;
+    }
+    .title {
+        margin-left: 30px;
+    }
+    .buttonContainer {
+        margin-left: 30px;
+    }
+    .cardContainer {
+        margin-left: -25%;
+    }
+}
+
+@media (max-width: 360px) {
+    .wrapper {
+        width: 100%;
+        height: 100%;
+        left: -1px;
+        top: 810px;
+        background: #FAFBFE;
+        padding-bottom: 300px;
+    }
+    .titleContainer {
+        margin-left: 5%;
+    }
+    .title {
+        margin-left: 15px;
+    }
+    .text {
+        width: 300px;
+        margin-left: -10px;
+        text-align: center;
+    }
+    .buttonContainer {
+        margin-left: 25px;
+    }
+    .cardContainer {
+        margin-left: -1%;
+    }
+    .earnMore {
+        box-sizing: border-box;
+        width: 100%;
+        height: 271px;
+        left: 648px;
+        margin-bottom: 20px;
+        background: #FFFFFF;
+        border: 1px solid #E5E5E5;
+        border-radius: 5px;
+    }
+    .secondline {
+        margin-top: 70px;
+    }
+    .secure {
+        box-sizing: border-box;
+        width: 100%;
+        height: 271px;
+        margin-top: 300px;
+        background: #FFFFFF;
+        border: 1px solid #E5E5E5;
+        border-radius: 5px;
+    }
+}

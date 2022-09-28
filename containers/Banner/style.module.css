@@ -1,0 +1,124 @@
+    .wrapper {
+        width: 100%;
+        max-width: 100%;
+        padding-bottom: 200px;
+    }
+    
+    .innerContainer {
+        padding-top: 250px;
+    }
+    
+    .healthCare {
+        width: 705px;
+        font-weight: 800;
+        font-size: 60px;
+        line-height: 98px;
+        color: #FFFFFF;
+    }
+    
+    @media (max-width: 600px) {
+        .healthCare {
+            font-size: 35px;
+            line-height: 45px;
+            width: 100%;
+            padding: 10px;
+        }
+    }
+    
+    @media (max-width: 450px) {
+        .healthCare {
+            font-size: 25px;
+            line-height: 45px;
+            width: 100%;
+            padding: 10px;
+        }
+    }
+    
+    @media (max-width: 360px) {
+        .healthCare {
+            font-size: 25px;
+            line-height: 45px;
+            width: 100%;
+            padding: 10px;
+        }
+    }
+    
+    .bannerImage {
+        border-radius: 10px;
+    }
+    
+    .TrailBlazers {
+        width: 705px;
+        /* height: 195px; */
+        font-weight: 800;
+        font-size: 60px;
+        line-height: 98px;
+        color: #FFFFFF;
+    }
+    
+    @media (max-width: 600px) {
+        .TrailBlazers {
+            font-size: 35px;
+            line-height: 45px;
+            padding: 10px;
+        }
+    }
+    
+    @media (max-width: 450px) {
+        .TrailBlazers {
+            font-size: 30px;
+            line-height: 45px;
+            padding: 10px;
+        }
+    }
+    
+    @media (max-width: 360px) {
+        .TrailBlazers {
+            font-size: 25px;
+            line-height: 45px;
+            padding: 10px;
+        }
+    }
+    
+    .rightBannerContainer {
+        margin-top: 70px;
+    }
+    
+    .healthcareParagraph {
+        height: 115px;
+        width: 500px;
+        left: 695px;
+        top: 509px;
+        line-height: 33.6px;
+    }
+    
+    @media (max-width: 600px) {
+        .healthcareParagraph {
+            width: 100%;
+            padding: 10px;
+        }
+    }
+    
+    @media (max-width: 450px) {
+        .healthcareParagraph {
+            width: 100%;
+            padding: 10px;
+        }
+    }
+    
+    @media (max-width:360px) {
+        .healthcareParagraph {
+            width: 100%;
+            padding: 10px;
+        }
+    }
+    
+    .ButtonStyle {
+        margin-top: 3.1rem;
+    }
+    
+    @media (max-width: 360px) {
+        .ButtonStyle {
+            margin-top: 30%;
+        }
+    }

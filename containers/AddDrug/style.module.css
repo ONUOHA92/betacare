@@ -1,0 +1,94 @@
+.addDrug {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.addDrug__header {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 30px;
+  color: #000000;
+}
+.info {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.info__label {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #333333;
+}
+
+.presBtn,
+.firstBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 214px;
+  height: 45px;
+  background: #edf2fb;
+  border-radius: 5px;
+  background: #1f56c3 !important;
+  margin-top: 15px;
+}
+
+.dropBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.drag {
+  border: 1px dashed #000000;
+  border-radius: 12px;
+  width: 250px;
+  height: 200.79px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 70px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+
+  /* secondary/dark */
+
+  color: #333333;
+
+  opacity: 0.5;
+}
+
+.presBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px !important;
+  background: #edf2fb !important;
+  border-radius: 5px !important;
+  max-width: 173px !important;
+  height: 52px !important;
+  gap: 18px;
+  color: #1f56c3 !important;
+  transition: 500ms ease-out opacity;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 20px 0 10px !important;
+}

@@ -1,0 +1,103 @@
+.label {
+  margin-bottom: 0.5rem;
+}
+
+.asterisk {
+  color: red;
+}
+
+.envelope {
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 183px;
+  height: 48px;
+  padding-left: 12px;
+}
+
+.envelopeMain {
+  display: flex;
+  gap: 17px;
+  margin-bottom: 36px;
+}
+
+.activeRadio {
+  border: 2px solid #1f56c3;
+  box-sizing: border-box;
+}
+
+.gender {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #444150;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.presBtn,
+.presBtn2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px !important;
+  background: rgba(31, 86, 195, 0.08) !important;
+  border-radius: 5px !important;
+  max-width: 100% !important;
+  height: 52px !important;
+  gap: 18px;
+  color: #1f56c3 !important;
+  transition: 500ms ease-out opacity;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 40px !important;
+}
+
+.presBtn2 {
+  width: 173px !important;
+  height: 40px !important;
+}
+
+.presBtn:hover,
+.presBtn2:hover {
+  opacity: 0.8;
+  transition: 500ms ease-out opacity;
+}
+
+.formTop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.formContainer {
+  display: flex;
+  align-items: center;
+  margin-left: 55px;
+  margin-right: 55px;
+  max-width: 100%;
+  margin-bottom: 47px;
+}
+
+.formContainerForm {
+  width: 100%;
+  max-width: 100%;
+}
+
+@media (max-width: 570px) {
+  .envelopeMain {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+}

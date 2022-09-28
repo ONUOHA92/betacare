@@ -1,0 +1,55 @@
+.roundBox {
+  box-sizing: border-box;
+  width: 349px;
+  height: 150px;
+  background: #ffffff;
+  border: 1px solid #1f56c3;
+  border-radius: 8px;
+  position: relative;
+  padding: 18px;
+  margin-top: 25px;
+  max-width: 100%;
+}
+
+.positionAbsolutely {
+  position: absolute;
+  top: -0.6rem;
+  right: -0.6rem;
+}
+
+.topDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topo1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.topo2,
+.month {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  color: #999999;
+}
+
+.amount {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 46px;
+  color: #1f56c3;
+}
+
+.buttonDiv {
+  margin-top: 20px;
+}

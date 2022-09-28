@@ -1,0 +1,219 @@
+.wrapper {
+    width: 100%;
+    margin-top: 200px;
+    height: 100%;
+    padding: 200px;
+    background-image: url('../../public/images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.doctors {
+    padding-top: 50px;
+    margin-left: 20px;
+}
+
+.doctors .span {
+    font-family: 'Open Sans';
+    font-style: normal;
+    margin-left: 100px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 0px;
+    background: linear-gradient(142.76deg, #21D4FD -8.13%, #FFFFFF 74.24%);
+    background-clip: text;
+    color: transparent;
+}
+
+.doctors h5 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    margin-left: 100px;
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 0px;
+    color: #FFFFFF;
+}
+
+.doctors p {
+    width: 250px;
+    height: 52px;
+    left: 265px;
+    top: 1848px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.patients {
+    padding-top: 50px;
+    margin-left: 20px;
+}
+
+.patients .span {
+    font-family: 'Open Sans';
+    font-style: normal;
+    margin-left: 80px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 0px;
+    background: linear-gradient(142.76deg, #21D4FD -8.13%, #FFFFFF 74.24%);
+    background-clip: text;
+    color: transparent;
+}
+
+.patients h5 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    margin-left: 100px;
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 0px;
+    color: #FFFFFF;
+}
+
+.patients p {
+    width: 250px;
+    height: 52px;
+    left: 265px;
+    top: 1848px;
+    /* H6 - 16px/Regular */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.support {
+    padding-top: 50px;
+    margin-left: 20px;
+}
+
+.support .span {
+    font-family: 'Open Sans';
+    font-style: normal;
+    margin-left: 100px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 0px;
+    background: linear-gradient(142.76deg, #21D4FD -8.13%, #FFFFFF 74.24%);
+    background-clip: text;
+    color: transparent;
+}
+
+.support h5 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 0px;
+    color: #FFFFFF;
+}
+
+.support p {
+    width: 250px;
+    height: 52px;
+    left: 265px;
+    top: 1848px;
+    /* H6 - 16px/Regular */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media (max-width: 700px) {
+    .wrapper {
+        margin-top: 70%;
+        background-image: none;
+        background: linear-gradient(135deg, #3A416F 0%, #141727 100%);
+    }
+    .doctors {
+        margin-left: -90px;
+    }
+    .patients {
+        margin-left: -90px;
+    }
+    .support {
+        margin-left: -90px;
+    }
+}
+
+@media (max-width: 540px) {
+    .wrapper {
+        margin-top: 70%;
+        background-image: none;
+        background: linear-gradient(135deg, #3A416F 0%, #141727 100%);
+    }
+    .doctors .span {
+        margin-left: 7%;
+    }
+    .doctors p {
+        margin-left: -80px;
+    }
+    .doctors h5 {
+        margin-left: 10%;
+    }
+    .patients .span {
+        margin-left: -11%;
+    }
+    .patients h5 {
+        margin-left: 5%;
+    }
+    .patients p {
+        margin-left: -80%;
+    }
+    .support .span {
+        margin-left: 11%;
+    }
+    .support h5 {
+        margin-left: 12%;
+    }
+    .support p {
+        margin-left: -80%;
+    }
+}
+
+@media (max-width: 360px) {
+    .container {
+        margin-left: -90px;
+        margin-top: -100px;
+    }
+    .doctors {
+        margin-left: 10%;
+    }
+    .patients {
+        margin-left: 10%;
+    }
+    .support {
+        margin-left: 10%;
+    }
+    .patients p {
+        margin-left: -100%;
+    }
+    .support p {
+        margin-left: -100%;
+    }
+}

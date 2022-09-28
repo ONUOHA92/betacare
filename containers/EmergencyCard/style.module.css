@@ -1,0 +1,20 @@
+.dbtn {
+  padding: 10px;
+  width: 95px;
+  height: 39px;
+  background: #1f56c3;
+  box-shadow: 0px 2px 6px 2px #edf2fb;
+  border-radius: 5px;
+}
+
+.smallWell {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(237, 242, 251, 0.5);
+  border-radius: 8px;
+  height: 71px;
+  align-items: center;
+  padding: 16px 30px;
+  margin: 40px 0;
+  user-select: none;
+}

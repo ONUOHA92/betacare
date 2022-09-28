@@ -1,0 +1,167 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.inner>div {
+  color: #333333;
+  font-weight: bold;
+}
+
+.inner>div:nth-child(2n) {
+  color: #1f56c3;
+  align-self: flex-start;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.icon>div:nth-child(2n) {
+  width: 400px;
+  text-align: center;
+  word-break: break-word;
+  padding: 0 2rem;
+  color: #333333;
+  opacity: 0.4;
+}
+
+.addBoxShadow {
+  box-shadow: 0px 12px 26px rgba(16, 30, 115, 0.06);
+  border-radius: 8px;
+  background: #1f56c3;
+  color: #fff;
+  font-family: Poppins;
+  margin-bottom: 30px;
+  max-width: 100%;
+}
+
+.addBoxShadow>div {
+  max-width: 100%;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dbtn {
+  border-radius: 5px;
+  background: #edf2fb;
+  color: #1f56c3 !important;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  opacity: 1;
+  transition: 500ms ease-out opacity;
+  text-transform: lowercase;
+}
+
+.dbtn:hover {
+  background: #edf2fb;
+  opacity: 0.8;
+  transition: 500ms ease-out opacity;
+}
+
+.flexMe {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexMe>div {
+  gap: 14.48px;
+}
+
+.flexMe>div:nth-child(1n) {
+  display: flex;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.flexMe>div:nth-child(2n) {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 19px;
+}
+
+.border {
+  display: block;
+  border: 1px dashed #e5e5e5;
+  margin-top: 16px;
+  margin-bottom: 21px;
+}
+
+.flexMee {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flexMee>div {
+  display: flex;
+  flex-direction: column;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.flexMee>div>div {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.transformUpper {
+  text-transform: uppercase;
+}
+
+.marginBottomZero {
+  margin-bottom: 0 !important;
+}
+
+.process {
+  background: #c4c4c4 !important;
+  box-shadow: 0px 2px 6px 2px #edf2fb;
+  border-radius: 5px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #e5e5e5 !important;
+}
+
+@media all and (max-width: 700px) {
+  .removePadding {
+    padding: 5px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .removePadding {
+    padding: 3px;
+  }
+}

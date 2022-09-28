@@ -1,0 +1,265 @@
+.smallCard {
+  display: flex;
+  gap: 1rem;
+  margin-left: 2rem;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+
+.flexify {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 3rem;
+  gap: 2rem;
+  margin-left: 2rem;
+}
+
+.welcome {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #0a2a6a;
+  margin-top: -3rem;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 2rem;
+}
+
+.presBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px !important;
+  background: rgba(31, 86, 195, 0.08) !important;
+  border-radius: 5px !important;
+  width: 500px !important;
+  max-width: 100% !important;
+  height: 52px !important;
+  gap: 18px;
+  color: #1f56c3 !important;
+  transition: 500ms ease-out opacity;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 40px !important;
+}
+
+.presBtn:hover {
+  opacity: 0.8;
+  transition: 500ms ease-out opacity;
+}
+
+.adjustMarginBtn {
+  margin-top: 10px !important;
+}
+
+.sideLine {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -1rem;
+}
+
+.flexRow,
+.flexRow2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexRow2 {
+  margin-top: -2rem;
+}
+
+.appCard {
+  margin-left: 12px;
+}
+
+.appCardLab {
+  margin-left: 0;
+}
+
+.labBtn {
+  width: 123px !important;
+  height: 42px !important;
+  flex-wrap: nowrap;
+  font-family: Poppins !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 21px !important;
+  color: #1f56c3 !important;
+  margin-top: 0 !important;
+}
+
+@media (max-width: 1277px) {
+  .smallCard {
+    margin-left: 0 !important;
+  }
+}
+
+@media (max-width: 1310px) {
+  .smallCard {
+    margin-left: 0 !important;
+  }
+}
+
+@media (max-width: 1310px) {
+  .flexify {
+    margin-left: 0;
+  }
+
+  .welcome {
+    margin-left: 0rem;
+  }
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.inner,
+.innerFlex {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.removeMargins {
+  margin-top: 10px !important;
+  margin-bottom: 0 !important;
+}
+
+.inner > div,
+.innerFlex > div {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+}
+
+.inner > div:nth-child(2n),
+.innerFlex > div:nth-child(2n) {
+  color: #1f56c3;
+  align-self: flex-start;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #333333;
+  opacity: 0.25;
+}
+
+.innerFlex2 {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pushUp {
+  margin-top: 10px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.icon > div:nth-child(2n) {
+  text-align: center;
+  word-break: break-word;
+  width: 286px;
+  height: 63px;
+  line-height: 21px;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+  opacity: 0.25;
+}
+
+.addBoxShadow {
+  box-shadow: 0px 12px 26px rgba(16, 30, 115, 0.06);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.addBoxShadow::-webkit-scrollbar {
+  width: 8px;
+}
+
+.addBoxShadow::-webkit-scrollbar-track {
+  width: 8px;
+}
+
+.addBoxShadow::-webkit-scrollbar-thumb {
+  background: rgba(31, 86, 195, 0.85);
+  border: 4px solid transparent;
+  border-radius: 8px;
+  background-clip: padding-box;
+}
+
+.addBoxShadow::-webkit-scrollbar {
+  width: 16px;
+}
+
+.addBoxShadow > div {
+  max-width: 100%;
+}
+
+.addBoxShadow > div {
+  max-width: 100%;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dbtn {
+  border-radius: 5px;
+  background: #edf2fb;
+  color: #1f56c3 !important;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  opacity: 0.8;
+  transition: 500ms ease-out opacity;
+}
+
+.dbtn:hover {
+  background: #edf2fb;
+  opacity: 1;
+  transition: 500ms ease-out opacity;
+}
+
+.maxWidth > div {
+  width: 100% !important;
+  height: 100vh;
+}

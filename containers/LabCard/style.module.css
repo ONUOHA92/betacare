@@ -1,0 +1,248 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+
+.inner > div {
+  color: #333333;
+  font-weight: bold;
+}
+
+.inner > div:nth-child(2n) {
+  color: #1F56C3;
+  align-self: flex-start;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.icon > div:nth-child(2n) {
+  width: 400px;
+  text-align: center;
+  word-break: break-word;
+  padding: 0 2rem;
+  color: #333333;
+  opacity: 0.4;
+}
+
+
+.addBoxShadow {
+  display: block!important;
+  box-shadow: 0px 12px 26px rgba(16, 30, 115, 0);
+  border-radius: 8px;
+  color: #fff;
+  font-family: Roboto;
+  margin-bottom: 18px;
+  max-width: 100%;
+  padding-left: 0px;
+  padding-top: 10px;
+}
+
+.addBoxShadow > div {
+  max-width: 100%;
+}
+
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dbtn {
+  border-radius: 5px;
+  background: #EDF2FB;
+  color:#1F56C3!important;
+  align-items: center;
+  padding: .5rem 2rem;
+  opacity: 1;
+  transition: 500ms ease-out opacity;
+  text-transform: lowercase;
+}
+
+.dbtn:hover {
+  background: #EDF2FB;
+  opacity: .8;
+  transition: 500ms ease-out opacity
+}
+
+.flexMe {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexMe > div {
+  gap: 14.48px
+}
+
+.flexMe > div:nth-child(1n) {
+  display: flex;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.flexMe > div:nth-child(2n) {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 19px;
+}
+
+.border {
+  display: block;
+  border: 1px dashed #E5E5E5;
+  margin-top: 16px;
+  margin-bottom: 21px;
+}
+
+.flexMee {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flexMee > div {
+  display: flex;
+  flex-direction: column;
+  font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+}
+
+.flexMee > div > div {
+  font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 18px;
+}
+
+.transformUpper {
+  text-transform: uppercase;
+}
+
+.flexApp {
+  display: flex;
+  flex-direction: column;
+  /* padding-left: 20px; */
+}
+
+.firstApp {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+  color: #999999;
+  display: flex;
+  justify-content: flex-start;
+  gap: 24px;
+}
+
+.secondApp {
+  margin-top: 8px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #333333;
+}
+
+.thirdApp {
+  margin-top: 8px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #1F56C3;
+}
+
+.fourthApp {
+  margin-top: 11px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #666666;
+}
+
+.padleft {
+  padding-left: 0!important;
+}
+
+.background1 {
+  background-color: rgba(53, 158, 255, 0.2)
+}
+
+.background2 {
+  background-color: rgba(254, 127, 45, 0.2)
+}
+
+.background3 {
+  background-color: rgba(14, 214, 58, 0.2)
+}
+
+.background4 {
+  background-color: rgba(92, 49, 217, 0.2)
+}
+
+.one {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+  color: #999999;
+}
+
+.one > div:nth-child(1n) {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+  color: #999999;
+}
+
+
+.one > div:nth-child(2n) {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #333333;
+}
+
+.one > div:nth-child(3n) {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #666666;
+}

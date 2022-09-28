@@ -1,0 +1,39 @@
+/* Box styles */
+.miniContainer {
+  border: 1px dashed #333333;
+  border-radius: 8px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 412px;
+  height: 214px;
+  background: #f8f9fa;
+  user-select: none;
+}
+
+.miniContainer:hover {
+  cursor: pointer;
+}
+
+.innerText {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #999999;
+  width: 342px;
+}
+
+.uploadContainerTitle {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+  user-select: none;
+}

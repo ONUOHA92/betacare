@@ -1,0 +1,14 @@
+.mainModal {
+  display: block;
+}
+
+.customizedbutton {
+  color: gray;
+}
+
+.customizer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: -1rem;
+}

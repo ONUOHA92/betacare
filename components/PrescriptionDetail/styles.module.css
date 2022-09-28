@@ -1,0 +1,119 @@
+.wrapper {
+    padding: 3.7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3.7rem;
+    color: #333333;
+}
+
+.wrapper p {
+    margin: 0;
+}
+
+.image {
+    text-align: center;
+    height: 4rem;
+}
+
+.image img {
+    height: 100%;
+}
+
+.date {
+    text-align: right;
+    color: #333333;
+    opacity: 0.6;
+}
+
+.doctor_details>*:last-child, .patient_details>*:first-child {
+    color: #1F56C3;
+}
+
+.doctor_details>*:last-child, .patient_details>*:first-child, .precription_table th {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.patient_name {
+    min-width: 238px;
+    display: inline-block;
+}
+
+.doctor_details>*:first-child, .patient_name {
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.doctor_details>* {
+    min-width: 256px;
+    text-align: center;
+    display: inline-block;
+}
+
+.precription_table, .direction {
+    border: 1px solid #E5E5E5;
+    border-radius: 12px;
+}
+
+.doctor_details {
+    text-align: right;
+}
+
+.patient_name, .precription_table td, .direction p {
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+    font-weight: 400;
+}
+
+.precription_table table {
+    width: 100%;
+    text-align: center;
+}
+
+.precription_table {
+    background: url('/images/background_logo.svg') no-repeat;
+    background-position: center;
+    background-size: 523px;
+}
+
+.precription_table table tr {
+    display: flex;
+}
+
+.precription_table table tr>td, .precription_table table tr>th {
+    min-width: 100px;
+    border-bottom: 1px solid #E5E5E5;
+    border-left: 1px solid #E5E5E5;
+}
+
+.precription_table table tr:last-child>td {
+    border-bottom: none;
+}
+
+.precription_table table thead tr th {
+    height: 73px;
+    /*TODO: change this to max max-height: later;*/
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.precription_table table td {
+    height: 100px;
+    /*TODO: change this to max max-height: later;*/
+}
+
+.direction {
+    min-height: 159px;
+    padding: 1.8rem 3rem;
+}
+
+.precription_table table tr>td:first-child, .precription_table table tr>th:first-child {
+    flex: 1;
+    border-left: none;
+}
+
+.button {
+    max-width: 142px;
+    margin-top: 3rem;
+    margin-left: auto;
+}

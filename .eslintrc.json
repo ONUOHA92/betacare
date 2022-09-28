@@ -1,0 +1,10 @@
+{
+  "extends": ["next", "prettier", "next/core-web-vitals"],
+  "plugins": ["eslint-plugin-prettier", "@typescript-eslint"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      { "singleQuote": true, "endOfLine": "auto", "semi": false }
+    ]
+}
+}

@@ -1,0 +1,34 @@
+.top,
+.bottom {
+  display: flex;
+}
+
+.top {
+  gap: 16px;
+}
+
+.spreader {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 22px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #666666;
+}
+
+.right {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.addPadd {
+  margin-right: 0.3rem;
+}
+.pointer {
+  cursor: pointer;
+}

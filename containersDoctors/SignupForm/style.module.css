@@ -1,0 +1,199 @@
+.form,
+.divider {
+  margin-top: 3rem;
+}
+
+.pushDown {
+  margin-top: 3rem;
+}
+
+.form {
+  margin-bottom: 3rem;
+}
+
+.input {
+  margin-bottom: 1.5rem;
+}
+
+.input input {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+}
+
+.input label {
+  display: none;
+}
+
+.heading {
+  margin-bottom: 0;
+  margin-top: 2rem;
+  font-size: 18px;
+  color: #010713;
+  font-weight: 500;
+  font-size: 20px;
+  /* line-height: 30px; */
+}
+
+.heading span,
+.heading1 {
+  display: block;
+  color: #1f56c3;
+  font-weight: 600;
+  font-size: 24px;
+  /* line-height: 36px; */
+}
+
+.color {
+  color: #1f56c3;
+  margin: 0 0.2rem;
+}
+
+.childflex {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #999999;
+}
+
+.flexhead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.link {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  color: #999999;
+}
+
+.terms input,
+.terms a:hover,
+.link a:hover {
+  cursor: pointer;
+  color: #55adff;
+}
+
+.terms {
+  color: #666666;
+  font-size: 12px;
+  line-height: 11px;
+  font-family: Roboto, 'sans serif';
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.terms a,
+.link a {
+  color: #1f56c3;
+}
+
+.link a {
+  font-weight: 500;
+}
+
+.divider {
+  position: relative;
+  padding: 0.5rem 0;
+}
+
+.line {
+  width: 100%;
+  height: 0;
+  border: 1px solid #66666640;
+}
+
+.divider p {
+  margin: 0;
+  padding: 0.5rem;
+  color: #333333;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: Roboto, 'sans serif';
+  font-weight: 400;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.flex_microphone {
+  display: flex;
+  gap: 10px;
+}
+
+.pushUp {
+  margin-top: 24px;
+  margin-bottom: 15px;
+}
+
+.headerSub {
+  margin-bottom: 20px;
+}
+
+.label {
+  margin-bottom: 0.5rem;
+}
+
+.asterisk {
+  color: red;
+}
+
+.envelope {
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 183px;
+  height: 48px;
+  padding-left: 12px;
+}
+
+.envelopeMain {
+  display: flex;
+  gap: 17px;
+  margin-bottom: 36px;
+}
+
+.activeRadio {
+  border: 2px solid #1f56c3;
+  box-sizing: border-box;
+}
+
+.gender {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #444150;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.phoneField {
+  background: #fafafa;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  width: 100%;
+  display: flex;
+  padding: 0.5rem;
+  height: 50px;
+  gap: 0.3rem;
+}
+
+.phoneContainer > div > div::before {
+  display: none !important;
+}

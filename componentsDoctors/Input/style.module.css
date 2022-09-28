@@ -1,0 +1,74 @@
+.group {
+  background: #fafafa;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: .5rem;
+  height: 50px;
+  gap: .3rem;
+}
+
+.input {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 14px;
+  flex: 1;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: stretch;
+}
+
+.icon>* {
+  width: 100% !important;
+  max-width: 24px;
+}
+
+.group:focus-within {
+  border: 1px solid #1e223e;
+  color: #1e223e;
+}
+
+.error {
+  border: 1px solid rgba(255, 89, 94, 1);
+}
+
+.inputError::placeholder {
+  color: rgba(255, 89, 94, 1);
+}
+
+.label {
+  margin-bottom: 0.5em;
+  display: block;
+  font-weight: 400;
+}
+
+.small {
+  display: block;
+  margin-top: 2px;
+  color: rgba(255, 89, 94, 1);
+  font-size: 14px;
+}
+
+/* .icon {
+  position: absolute;
+  top: 26%;
+  left: 2%;
+}
+
+.adorn {
+  position: absolute;
+  top: 26%;
+  right: 6%;
+} */
+
+.adorn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}

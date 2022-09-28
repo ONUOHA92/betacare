@@ -1,0 +1,297 @@
+.wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.wrapper > div > div > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-right: 30px;
+}
+
+.wrapper > div > div > div > span {
+  color: #333333;
+  opacity: 0.8;
+}
+
+.wrapper > div > div > div > div:nth-child(1) > img {
+  width: 1.8rem !important;
+  min-width: 1.8rem !important;
+  cursor: pointer;
+}
+
+.wrapper > div > div > div > div:nth-child(2) > div > div > img {
+  object-fit: cover;
+}
+
+.flex2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.flex3 {
+  display: flex;
+  align-items: center;
+  justify-self: flex-end;
+  gap: 1em;
+}
+
+.search {
+  width: 38vw;
+  margin-right: 0.5em;
+  margin-top: -5px;
+}
+
+.profilePicture:hover {
+  cursor: pointer;
+}
+
+.mobileButton {
+  display: none;
+}
+
+.search {
+  background: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
+
+.logo {
+  display: none;
+}
+
+.topContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topContainer > img {
+  object-fit: cover;
+}
+
+.topContainer > div:nth-child(2n) {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.onHover {
+  cursor: pointer;
+}
+
+.searchBox > input::selection {
+  background: #fcd335;
+}
+
+.searchBox > input::-moz-selection {
+  background: #fcd335;
+}
+
+.searchBox > input:focus {
+  outline: 1px solid grey;
+}
+
+.topName {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+}
+
+.absolufyMe {
+  position: absolute;
+  top: 0;
+  right: 35px;
+  box-shadow: none !important;
+}
+
+.absolufyMe > div:nth-child(3n) {
+  border-top-left-radius: 0.5rem !important;
+  right: 5px !important;
+}
+
+.mainFlex {
+  display: flex;
+  margin-left: -0.97rem;
+  align-items: flex-start;
+  padding-bottom: 2rem;
+}
+
+.mainFlex2 {
+  display: flex;
+  gap: 19.98px;
+  margin-left: 12px;
+}
+
+.mainFlex3 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.mainFlex3 > div {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #373737;
+}
+
+.mainFlex3 > div:nth-child(2n) {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.56);
+  mix-blend-mode: normal;
+}
+
+.mainFlex4 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 16px;
+  letter-spacing: 0.0125em;
+  text-transform: uppercase;
+  color: #333333;
+  opacity: 0.5;
+}
+
+.mainFlex5 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainFlex1 {
+  margin-top: -2rem;
+}
+
+.link:hover {
+  cursor: pointer;
+}
+
+.searchBox {
+  position: relative;
+}
+
+.searchBox > input {
+  background: #f1f1f1;
+  border-radius: 60px;
+  width: 60%;
+  padding: 0.5rem 1rem;
+  border-style: none;
+  width: 379px;
+  height: 43px;
+  margin: 0.7rem 1rem;
+  background: #ffffff;
+  border: 1px solid rgba(21, 50, 107, 0.3);
+  box-sizing: border-box;
+  border-radius: 12px;
+  transform: rotate(0.02deg);
+  margin-left: 0;
+}
+
+.searchBox > input:focus {
+  outline: none;
+}
+
+.addFlexxy {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 32px;
+}
+
+.spaceBetween {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.onHover:hover {
+  cursor: pointer;
+}
+
+.profilePicture > span > img {
+  object-fit: cover;
+}
+
+.topFlexxy {
+  margin-left: -2rem;
+}
+
+/* .positionTop {
+  position: relative;
+  top: 0;
+} */
+
+@media all and (max-width: 1200px) {
+  .webButton,
+  .name {
+    display: none;
+  }
+
+  .mobileButton {
+    display: flex;
+  }
+}
+
+@media all and (max-width: 660px) {
+  .topContainer > p:last-child {
+    display: none;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .search {
+    width: 80vw;
+  }
+
+  .flex2 {
+    margin-top: 3em;
+  }
+
+  .name {
+    display: flex;
+  }
+
+  .logo {
+    display: flex;
+    margin-right: 1em;
+  }
+}
+
+@media all and (max-width: 360px) {
+  .name {
+    display: none;
+  }
+}
+
+@media all and (max-width: 750px) {
+  .searchBox {
+    display: none;
+  }
+
+  .addFlexxy {
+    display: flex;
+    justify-content: flex-end;
+  }
+}

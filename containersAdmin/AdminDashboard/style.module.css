@@ -1,0 +1,149 @@
+.smallCard {
+  display: flex;
+  gap: 1rem;
+  margin-left: 2rem;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+
+.welcome {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: var(--color-primary);
+  margin-top: -3rem;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 2rem;
+}
+
+.adjustMarginBtn {
+  margin-top: 10px !important;
+}
+
+.logContainer {
+  margin-top: 50px;
+}
+
+.logTitle {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--color-text-primary);
+  margin-bottom: 20px;
+}
+.logCount {
+  opacity: 0.6;
+}
+@media (max-width: 930px) {
+  .btnDiv {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 920px) {
+  .flexify {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1277px) {
+  .smallCard {
+    margin-left: 0 !important;
+  }
+}
+
+@media (max-width: 1310px) {
+  .smallCard {
+    margin-left: 0 !important;
+  }
+}
+
+@media (max-width: 1310px) {
+  .flexify {
+    margin-left: 0;
+  }
+
+  .welcome {
+    margin-left: 0rem;
+  }
+}
+/* start -- Pagination styles */
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+  margin-bottom: 66px;
+}
+
+@media (max-width: 768px) {
+  .pagination {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+.paginationRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 216px;
+  height: 35px;
+  background: var(--color-pagination-right);
+  border-radius: 5px;
+  justify-content: space-between;
+  padding-left: 16.75px;
+  padding-right: 16.75px;
+}
+
+.siblings {
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+  align-items: center;
+}
+
+.siblings > span:hover {
+  cursor: pointer;
+}
+
+.active {
+  width: 29px;
+  height: 23px;
+  background: var(--color-secondary);
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .pagination {
+    margin-right: 10px;
+  }
+}
+
+.parginationLeft {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--color-pagination-left);
+}
+
+.dashes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+/* end -- Pagination styles */

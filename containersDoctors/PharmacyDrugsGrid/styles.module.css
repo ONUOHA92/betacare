@@ -1,0 +1,26 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.counts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+
+.show {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #666666;
+}
+
+.pagination {
+    background: #A0A2AF;
+    padding-block: 7px;
+    border-radius: 5px;
+}

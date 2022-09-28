@@ -1,0 +1,72 @@
+.access {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.access__header {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 35px;
+
+  color: #000000;
+}
+
+.access_box {
+  background: #f9f9fb;
+  border: 1px dashed #e5e5e5;
+  border-radius: 24px;
+  box-sizing: border-box;
+  padding: 2rem;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.access__chip {
+  background: #edf2fb !important;
+  border-radius: 50px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 0 5px;
+
+  color: #0a2a6a;
+}
+
+.access__tray {
+  margin: 25px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.access__add {
+  flex-direction: row-reverse;
+  padding: 0 8px;
+}
+
+.sum {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+.presBtn,
+.firstBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 214px;
+  height: 45px;
+  background: #edf2fb;
+  border-radius: 5px;
+  background: #1f56c3 !important;
+}

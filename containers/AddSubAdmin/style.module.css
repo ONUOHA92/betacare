@@ -1,0 +1,43 @@
+.addSubAdmin {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.addSubAdmin__header {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 35px;
+
+  color: #000000;
+}
+.info {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.info__label {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #333333;
+}
+
+.presBtn,
+.firstBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 214px;
+  height: 45px;
+  background: #edf2fb;
+  border-radius: 5px;
+  background: #1f56c3 !important;
+}

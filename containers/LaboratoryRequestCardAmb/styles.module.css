@@ -1,0 +1,67 @@
+.wrapper {
+  padding: 2rem;
+}
+
+.form_group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.headText {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+  margin-bottom: 19px;
+}
+
+.form_group .select {
+  height: 52px;
+  background-color: #f9f9fb;
+  border-radius: 15px;
+  padding-inline: 10px;
+  background-position: top 5px right 4px;
+  margin-bottom: 1rem;
+}
+
+.placeholder {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #999999;
+}
+.addressHeight > div {
+  background: #f9f9fb;
+}
+
+.addressHeight > div > textarea {
+  height: 80px !important;
+}
+
+.optional {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: #999999;
+}
+
+.optionalHead {
+  display: flex;
+  gap: 8px;
+}
+
+@media screen and (max-width: 400px) {
+  .wrapper {
+    padding: 1.5rem;
+  }
+}

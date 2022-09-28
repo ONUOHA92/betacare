@@ -1,0 +1,265 @@
+.wrapper {
+  position: relative;
+  color: #333333;
+}
+
+.wrapper header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.text h2 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+
+.text p,
+.details p {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+.card {
+  margin-bottom: 2rem;
+}
+
+.card .cardWrapper {
+  display: flex;
+  padding: 2.5rem;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+}
+
+.cardWrapper {
+  display: flex;
+  align-items: center !important;
+  padding-left: 0 !important;
+}
+
+.imgContainer {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 5em;
+  font-weight: 500;
+  background-color: gray;
+}
+
+.imgContainer img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1.88rem;
+  padding: 3.81rem 4rem;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.details h2 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  margin: 0;
+}
+
+.details button {
+  margin-top: auto;
+}
+
+.topHeadertext1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: #333333;
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 30px;
+  color: #1f56c3;
+}
+
+.available {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+  color: #00f5d4;
+}
+
+.imgContainer {
+  position: relative;
+}
+
+.circlebadge {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #00f5d4;
+  border: 1px solid #ffffff;
+  right: 1rem;
+  bottom: 0.5rem;
+}
+
+.header,
+.headerDocInfo {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #333333;
+  margin-left: -2rem;
+}
+
+.headerDocInfo {
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+
+.aboutDoctor {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  color: #666666a9;
+  width: 80%;
+}
+
+.infoContainer {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.scaleWrapper {
+  width: 420px;
+  max-width: 100%;
+}
+
+.paper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+}
+
+.alignCenter {
+  display: block;
+  position: relative;
+}
+
+.alignMiddle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonBottom {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin: 60px 0;
+}
+
+.alignCenterMid {
+  justify-content: flex-start;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .cardWrapper,
+  .items {
+    padding: 1.5rem;
+  }
+
+  .card .cardWrapper,
+  .info {
+    gap: 0.75rem;
+    align-items: center;
+  }
+
+  .info > * {
+    align-items: center;
+  }
+
+  .grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 526px) {
+  .customDivider {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1239px) {
+  .customDivider {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .paper {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 3rem;
+  }
+
+  .alignCenter {
+    width: 100%;
+  }
+
+  .header,
+  .headerDocInfo {
+    margin-left: 0;
+  }
+}

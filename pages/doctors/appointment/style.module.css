@@ -1,0 +1,114 @@
+/* start -- Topheader styles */
+.topHeader {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  margin-top: -40px;
+}
+
+.tableWrapper {
+  margin-right: 60px;
+}
+
+@media (max-width: 800px) {
+  .topHeader {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+.presBtn,
+.firstBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 214px;
+  height: 45px;
+  background: #edf2fb;
+  border-radius: 5px;
+  background: #1f56c3 !important;
+}
+
+.firstBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 214px;
+  height: 45px;
+  background: #edf2fb !important;
+  border-radius: 5px;
+  color: #1f56c3 !important;
+  box-shadow: -1px -6px 21px 0px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: -1px -6px 21px 0px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: -1px -6px 21px 0px rgba(0, 0, 0, 0.05);
+}
+
+.topHeadertext1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: #333333;
+}
+
+.topHeadertext2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: #666666;
+  margin-top: 12px;
+}
+
+/* end -- Topheader styles */
+
+.flexMe {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.btnText {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1f56c3;
+}
+
+.calendarDoctors {
+  margin: 40px 0;
+}
+
+.flexxyDoc {
+  gap: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 4.2rem;
+}
+
+.appTitle {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  margin-bottom: 30px;
+}
+
+.appTitleItem {
+  opacity: 0.6;
+}
+
+.addMarginTop {
+  margin-top: 40px;
+}

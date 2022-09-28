@@ -1,0 +1,46 @@
+.tableHead {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  background-color: #edf2fb !important;
+}
+
+.tableContainer {
+  border-radius: 16px 16px 0px 0px;
+
+  max-width: 100%;
+}
+
+.marginlize {
+  margin-top: 40px;
+  max-width: 100%;
+}
+
+.headRow {
+  background-color: #edf2fb !important;
+}
+.adjustPosition {
+  margin-left: 98px;
+}
+
+.tableButton {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 768px) {
+  .marginlize {
+    margin-right: 10px;
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  .marginlize {
+    margin-left: 0px;
+  }
+}

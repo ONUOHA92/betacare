@@ -1,0 +1,82 @@
+.wrapper {
+    margin-top: 20px;
+}
+
+.buttonContainer {
+    margin-left: 100px;
+}
+
+.content h3 {
+    margin-top: 40px;
+    font-family: 'Poppins';
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #1F56C3;
+}
+
+.buttons {
+    width: 199.6px;
+    height: 45px;
+    left: 54px;
+    top: 424px;
+    color: #FFFF;
+    border: none;
+    background: #1F56C3;
+    border-radius: 5px;
+}
+
+.containerIconOne {
+    width: 340px;
+    height: 52px;
+    left: 134px;
+    top: 6148px;
+}
+
+.icons {
+    margin-top: 20px;
+}
+
+.ContentText {
+    height: 48px;
+    left: 194px;
+    top: 6148px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.videoContent {
+    margin-top: 150px;
+}
+
+.paragraphContainer {
+    width: 420px;
+    height: 226px;
+    left: 148px;
+    top: 6304px;
+}
+
+.paragraphContainer p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #333333;
+    mix-blend-mode: normal;
+}
+
+@media (max-width: 400px) {
+    .buttonContainer {
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+    .paragraphContainer p {
+        width: 300px;
+    }
+}

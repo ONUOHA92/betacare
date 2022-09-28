@@ -1,0 +1,44 @@
+.wrapper {
+  background-color: #f6f8fb;
+  position: relative;
+}
+
+.main {
+  margin-left: 18vw;
+  padding: 0.75em 1rem;
+  min-height: 100vh;
+}
+
+.section {
+  margin-top: 5em;
+  color: #1e223e;
+}
+
+@media all and (max-width: 768px) {
+  .main {
+    margin-left: 0;
+  }
+
+  .section {
+    width: 95%;
+    margin: 5em auto 3em;
+  }
+}
+
+@media (max-width: 768px) {
+  .sideBar {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .main {
+    margin-left: 7rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .main {
+    margin-left: 0 !important;
+  }
+}
